@@ -1,0 +1,301 @@
+/*HTML*/
+html
+{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/*Header*/
+header
+{
+    height: 300px;
+    text-align: center;
+    background-image: url(../pictures/Header.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+
+/*Schriften*/
+.ueberschrift
+{
+    font-size: 80px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*Footer*/
+footer
+{
+    height: 100px;
+    background-color: rgba(179, 179, 179, 0.932);
+    bottom: 0;
+   position: relative;
+   width: 100%;
+    
+}
+
+.instagram 
+{
+    margin-right: 20px;
+    float: right;
+    font-size: 85px;
+    background-color: rgba(179, 179, 179, 0.932);
+    border: none;
+}
+
+.youtube
+{
+    margin-right: 20px;
+    float: right;
+    font-size: 85px;
+    background-color: rgba(179, 179, 179, 0.932);
+    border: none;
+}
+
+p.paypal
+{
+    font-size: 30px;
+    float: left;
+    margin-top: 30px !important;
+}
+
+button.paypal
+{
+    float: left;
+    font-size: 85px;
+    background-color: rgba(179, 179, 179, 0.932);
+    border: none;
+}
+
+/*Home*/
+.mainhome
+{
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+.img
+{
+    width: 100%;
+}
+
+/*Produkt*/
+.imgprodukt
+{
+    width: 80%;
+}
+
+.beschreibung
+{
+    font-size: 40px;
+    margin: 0 0 0 0;
+}
+
+.anzeige
+{
+    font-size: 30px;
+}
+
+.groesse
+{
+    font-size: 30px;
+}
+
+/*Navigation*/
+.ui.secondary.pointing.menu
+{
+    margin: auto;
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+}
+
+/*search*/
+main.search
+{
+    text-align: center;
+}
+
+div.suchen
+{
+    height: 280px;
+    width: 100%;
+    background-image: url(../pictures/Suche.png);
+    margin-top: 70px;
+}
+
+input.suchen
+{
+    width: 100%;
+    height: 150px;
+    font-size: 100px;
+}
+
+/*Nachsuche*/
+main.nachsuche
+{
+    text-align: center;
+}
+.keineErgebnisse
+{
+    height: 280px;
+    width: 100%;
+    margin-top: 70px;
+}
+.umgekehrt
+{
+    transform: rotate(180deg);
+    width: 50%;
+}
+.normal
+{
+    width: 50%;
+    
+}
+/*myAccount*/
+main.myaccount
+{
+    text-align: center;
+}
+
+/*signup*/
+.formular 
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.SignupSubmit 
+{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.form
+{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*login*/
+.login
+{
+    text-align: center;
+}
+
+.error
+{
+    color: red;
+}
+
+.SigninSubmit
+{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.divImgSignin
+{
+    height: 210px;
+    width: 100%;
+    background-image: url(../pictures/loginpic.png);
+    
+}
+
+.divImgSignup
+{
+    height: 210px;
+    width: 100%;
+    background-image: url(../pictures/loginpic.png);
+}
+
+/*Checklogin*/
+
+/*passwort*/
+.passwortform
+{
+    font-size: 30px;
+    text-align: center;
+}
+
+.passwort
+{
+    margin-bottom: 20px;
+}
+
+.passwortimg
+{
+    height: 210px;
+    width: 100%;
+    background-image: url(../pictures/loginpic.png);
+}
+
+#passwortsubmit
+{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+/*Impressum*/
+.impressum
+{
+    margin: 0 90px;
+}
+
+/*Back to top*/
+#myBtn:hover 
+{
+    background-color: #555;
+}
+
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  /*delete account*/
+  .submitdelete
+  {
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .delete 
+  {
+      text-align: center;
+  }
